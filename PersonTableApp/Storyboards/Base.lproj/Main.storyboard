@@ -51,7 +51,7 @@
             </objects>
             <point key="canvasLocation" x="987" y="-460"/>
         </scene>
-        <!--Person Details View Controller-->
+        <!--Person Name-->
         <scene sceneID="7U3-J4-8UO">
             <objects>
                 <viewController id="jgT-9w-qiR" customClass="PersonDetailsViewController" customModule="PersonTableApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -85,7 +85,7 @@
                             <constraint firstItem="d1G-JQ-8U3" firstAttribute="top" secondItem="Fgi-5J-Vmn" secondAttribute="top" constant="40" id="x8E-Oe-iId"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="MVq-Ck-L3m"/>
+                    <navigationItem key="navigationItem" title="Person Name" largeTitleDisplayMode="never" id="MVq-Ck-L3m"/>
                     <connections>
                         <outlet property="emailLabel" destination="PoS-dN-0H8" id="K3a-Y3-URh"/>
                         <outlet property="phoneLabel" destination="WcC-gU-PjJ" id="qGX-Kw-mTR"/>
@@ -188,6 +188,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Persons List" largeTitleDisplayMode="always" id="tLk-yF-3Pt"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="w23-gb-eWd">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="selectedImageTintColor" systemColor="systemBlueColor"/>
